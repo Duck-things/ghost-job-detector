@@ -84,10 +84,6 @@ Default threshold is 50. Jobs above that get flagged.
 
 **Import/Export** - Share your company lists
 
-## Screenshots
-
-*Add screenshots here*
-
 ## Settings
 
 The control panel has toggles for:
