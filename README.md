@@ -1,2 +1,136 @@
-# ghost-job-detector
-This si software to detect ghost jobs in linkedin, indeed, and more!
+# 👻 Ghost Job Detector
+
+Spot fake job listings before you waste time applying.
+
+**By Achyut Sharma**
+
+---
+
+## The Problem
+
+I spent 6 months job hunting. Applied to probably 300+ positions. Heard back from maybe 10.
+
+After a while I started noticing patterns. Jobs posted 4 months ago that were "urgently hiring." Listings with 1000+ applicants that never closed. "Entry level" roles wanting 5 years of experience. 
+
+Turns out these are called "ghost jobs" - companies post them to farm resumes, look like they're growing, or just forget to take them down. Meanwhile you're spending hours tailoring your resume for positions that don't exist.
+
+So I built this.
+
+## What It Does
+
+It's a browser script that analyzes job listings and gives them a "ghost score" from 0-100%. Higher score = more likely fake.
+
+Works on:
+- LinkedIn
+- Indeed  
+- Glassdoor
+- ZipRecruiter
+- Dice
+- Monster
+
+## Install
+
+1. Get [Tampermonkey](https://www.tampermonkey.net/) for your browser
+2. [Click here to install the script](../../raw/main/scripts/ghost-job-detector.user.js)
+3. Go to LinkedIn Jobs or Indeed
+4. Look for the panel in the bottom right
+
+## What It Looks For
+
+**Red flags that increase the score:**
+
+- Posted 30/60/90+ days ago
+- 200/500/1000+ applicants but still open
+- No salary listed
+- "Competitive salary" (usually means low)
+- Salary range is $50K+ wide (they don't know what they want)
+- "Entry level" but requires 5+ years
+- Wants 10 different technologies
+- Staffing agency
+- "Hiring for a client"
+- Short/vague description
+- No team or manager info
+- Red flag phrases: "fast-paced", "like a family", "wear many hats", "rockstar", etc.
+
+**Green flags that lower the score:**
+
+- Salary clearly listed
+- Posted recently
+- Specific team mentioned
+- Hiring manager named
+- Interview process described
+- Benefits detailed
+
+## How Scoring Works
+
+| Score | What it means |
+|-------|---------------|
+| 0-30 | Probably legit |
+| 30-50 | Some concerns |
+| 50-70 | Suspicious |
+| 70-100 | Likely ghost job |
+
+Default threshold is 50. Jobs above that get flagged.
+
+## Features
+
+**Ghost Score** - Every job gets a 0-100% score
+
+**Why Flagged** - Hover over flagged jobs to see reasons
+
+**Trust/Block Companies** - Whitelist companies you trust, blacklist ones you don't
+
+**Filters** - Optionally auto-hide jobs with no salary, 500+ applicants, or posted 60+ days ago
+
+**Import/Export** - Share your company lists
+
+## Screenshots
+
+*Add screenshots here*
+
+## Settings
+
+The control panel has toggles for:
+
+- Enable/disable detection
+- Ghost threshold (0-100)
+- Hide jobs with no salary
+- Hide old jobs (60+ days)
+- Hide high applicant jobs (500+)
+- Highlight mode vs hide mode
+- Show scores
+- Show reasons
+
+## FAQ
+
+**Won't this miss some ghost jobs?**
+
+Yeah, probably. It's not perfect. But it catches the obvious ones and saves time.
+
+**What if it flags a real job?**
+
+Hover over it and click the ✓ button to trust that company. Their jobs won't get flagged anymore.
+
+**Does this send my data anywhere?**
+
+No. Runs entirely in your browser.
+
+**Why is [company] flagged?**
+
+Hover over it to see the reasons. Usually it's a combination of things - old posting + no salary + vague description, etc.
+
+## Contributing
+
+Found a bug? Think the scoring is off? Open an issue.
+
+Know a pattern that indicates ghost jobs? Let me know.
+
+## License
+
+MIT
+
+---
+
+Made by [Achyut Sharma](https://github.com/achyutsharma)
+
+If this helped, consider starring the repo 👻
