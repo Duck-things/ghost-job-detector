@@ -25,7 +25,7 @@ Step-by-step guide to training a machine learning model that can detect ghost/fa
 
 **Software:**
 - Python 3.8+
-- About 1GB disk space
+- About 1GB disk space (External SSD will work too, but that SSD must be connected when using the software)
 
 **Data:**
 - 200+ ghost job listings (jobs you applied to that ghosted you or were obviously fake)
