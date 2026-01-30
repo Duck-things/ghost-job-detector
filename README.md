@@ -19,7 +19,7 @@ This script flags the suspicious ones so you dont waste your time.
 |---------|------|-----------|----------|
 | **Basic** | `ghost-job-detector-basic.user.js` | Age + applicants only | Just want obvious filtering |
 | **Advanced** | `ghost-job-detector-advanced.user.js` | Full heuristics + text analysis | Most users |
-| **ML** | `ghost-job-detector-ml.user.js` | Heuristics + custom ML model | Power users who want to train models |
+| **ML (Machine Leaning)** | `ghost-job-detector-ml.user.js` | Heuristics + custom ML model | Power users who want to train models |
 
 ## Features
 
