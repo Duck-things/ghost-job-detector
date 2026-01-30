@@ -198,7 +198,7 @@ Found a bug? Have a red flag phrase to add? Open an issue or PR.
 
 ## License
 
-MIT
+MIT. Go to the LICENSE to see more!
 
 ## HackClub!
 I’m 13 years old and I just joined this thing called Hack Club Flavortown, and it’s honestly really cool so I wanted to share.
