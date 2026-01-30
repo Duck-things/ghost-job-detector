@@ -17,11 +17,11 @@ Step-by-step guide to training a machine learning model that can detect ghost/fa
 
 ---
 
-## What Youll Need
+## What You'll Need
 
 **Hardware:**
 - Computer with 8GB+ RAM
-- GPU optional but speeds things up
+- GPU optional but speeds things up (Integrated graphics are not the same as a deicated GPU)
 
 **Software:**
 - Python 3.8+
