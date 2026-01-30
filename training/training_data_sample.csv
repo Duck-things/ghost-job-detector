@@ -1,0 +1,9 @@
+label,age_days,applicants,has_salary,salary_range,text_length,red_flag_count,is_staffing,is_repost,entry_high_exp,for_client,has_benefits,has_manager,competitive_salary
+1,95,750,0,0,1200,3,1,1,0,1,0,0,1
+1,120,1200,0,0,800,4,0,1,1,0,0,0,1
+1,75,450,0,0,600,2,1,0,0,1,0,0,0
+1,60,300,1,80000,1500,2,0,0,1,0,0,0,1
+0,5,23,1,15000,3500,0,0,0,0,0,1,1,0
+0,3,45,1,20000,4200,0,0,0,0,0,1,1,0
+0,7,12,1,10000,2800,1,0,0,0,0,1,0,0
+0,14,67,1,25000,5000,0,0,0,0,0,1,1,0
