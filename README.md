@@ -4,7 +4,7 @@ Spot fake and ghost job listings on LinkedIn, Indeed, Glassdoor, and more.
 
 ## Why This Exists
 
-After months of job hunting and getting ghosted constantly, I realized a lot of these jobs were never real. Companies post them to:
+After see so many people complain about this I thought to make something!
 
 - Farm resumes for future openings
 - Look like theyre growing to investors
