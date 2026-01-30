@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for wanting to help!
+Thanks for wanting to help to improve this for other poeple! I am so sorry that you encountered a issue! I will try to fix it ASAP!
 
 ## Reporting Issues
 
